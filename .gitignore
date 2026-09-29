@@ -1,0 +1,19 @@
+# LeRobot é clonado pelo scripts/00_setup.sh (versão fixada no script)
+lerobot/
+
+# Treinos, checkpoints, vídeos e logs (vários GB)
+outputs/
+wandb/
+*.mp4
+*.safetensors
+*.rrd
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
